@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "3002")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/3002.kicad_sym")(options "")(descr "CR2032 Battery Holder"))
+  (lib (name "TL1107BF130WQ")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/TL1107BF130WQ.kicad_sym")(options "")(descr ""))
+)
