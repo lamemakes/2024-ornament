@@ -1,4 +1,4 @@
-# Tree Ornament Hardware
+# ⚙️ Twinkly Tree Hardware
 
 ## BOM
 
