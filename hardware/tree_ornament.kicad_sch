@@ -2613,7 +2613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "tree_ornament:SOIC127P798X216-8N"
 			(at 113.03 83.82 0)
 			(effects
 				(font

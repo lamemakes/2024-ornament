@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/lame/projects/2024_lame_ornament/tree_ornament/hardware/tree_ornament.kicad_sch")
-    (date "2024-11-23T00:47:48-0500")
+    (date "2024-11-24T13:49:52-0500")
     (tool "Eeschema 8.0.6-1.fc41")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -328,11 +328,11 @@
       (tstamps "6e55c3d3-a8e5-4b78-8bde-2c1c2d2d2ac2"))
     (comp (ref "U1")
       (value "ATtiny85-20P")
-      (footprint "Package_DIP:DIP-8_W7.62mm")
+      (footprint "tree_ornament:SOIC127P798X216-8N")
       (datasheet "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf")
       (description "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, DIP-8")
       (fields
-        (field (name "Footprint") "Package_DIP:DIP-8_W7.62mm")
+        (field (name "Footprint") "tree_ornament:SOIC127P798X216-8N")
         (field (name "Datasheet") "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf")
         (field (name "Description") "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, DIP-8"))
       (libsource (lib "MCU_Microchip_ATtiny") (part "ATtiny85-20P") (description "20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, DIP-8"))
