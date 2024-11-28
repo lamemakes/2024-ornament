@@ -6,7 +6,7 @@ jobs:
     name: Generate images from a KiCad project
     steps:
       - uses: actions/checkout@v4
-      - uses: lamemakes/kicad-pics-action@e057d743751fa19f4e859597aed78610cde067ee
+      - uses: lamemakes/kicad-pics-action@011eaa30f93b3ad354c019dee09c7e8624722d2f
         with:
           project-path: './hardware/'
           project-name: 'tree-ornament'
