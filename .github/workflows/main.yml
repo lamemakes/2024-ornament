@@ -8,6 +8,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: lamemakes/kicad-pics-action@dc08436b33a7fd6c920429e4279a3eaae8364674
         with:
-          project-path: './hardware/'
+          project-path: './2024-ornament/hardware/'
           project-name: 'tree-ornament'
-          output-path: './pics/'
+          output-path: './2024-ornament/pics/'
