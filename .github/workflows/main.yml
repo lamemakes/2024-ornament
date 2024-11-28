@@ -1,0 +1,13 @@
+on: [push]
+
+jobs:
+  gen-image:
+    runs-on: ubuntu-latest
+    name: Generate images from a KiCad project
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lamemakes/kicad-pics-action@83b68a304e3206d89b1122e137800aa9ee7cd5be
+        with:
+          project-path: './hardware/'
+          project-name: 'tree-ornament'
+          output-path: './pics/'
