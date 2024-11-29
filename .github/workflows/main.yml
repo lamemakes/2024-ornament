@@ -9,5 +9,5 @@ jobs:
       - uses: lamemakes/kicad-pics-action@60efa5ccc0cd599e258df3ad47f0e0198a32f854
         with:
           project-path: 'hardware/'
-          project-name: 'tree-ornament'
+          project-name: 'tree_ornament'
           output-path: 'pics/'
