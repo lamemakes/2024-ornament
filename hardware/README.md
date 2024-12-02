@@ -1,4 +1,4 @@
-# ⚙️ Twinkly Tree Hardware
+# ⚙️ Blinky Tree Hardware
 
 ## BOM
 

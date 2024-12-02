@@ -1,4 +1,4 @@
-# 🧑‍💻 Twinkly Tree Firmware
+# 🧑‍💻 Blinky Tree Firmware
 
 ## About
 
