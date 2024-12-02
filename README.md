@@ -9,7 +9,7 @@ This utilizes [charlieplexing](https://en.wikipedia.org/wiki/Charlieplexing) & a
 ## Pics
 
 *Schematic*
-![pics/tree]
+![2024 Tree Ornament Schematic](pics/tree_ornament.svg)
 
 *PCB*
-![pics/tree_ornament-pcb.svg]
+![2024 Tree Ornament PCB](pics/tree_ornament-pcb.svg)
