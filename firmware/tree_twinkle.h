@@ -6,9 +6,6 @@
 #define LED_COUNT 12
 #define F_CPU 8000000UL
 
-// make all LED pins to be inputs
-int ledInput = (0 << A) | (0 << B) | (0 << C) | (0 << D);
-
 typedef struct {
     int highPin;
     int lowPin;

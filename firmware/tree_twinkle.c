@@ -5,21 +5,20 @@
 #include "tree_twinkle.h"
 
 void toggle_led(LED led){
-    // Set all back to input pins besides the high & low pins  ...super ugly way to mask...
-    DDRB = ledInput | (1 << led.highPin) | (1 << led.lowPin);
-    PORTB = (1 << led.highPin) | (0 << led.lowPin);
+    // Set all back to input pins besides the high & low pins
+    DDRB = (1 << led.highPin | 1 << led.lowPin);
+    PORTB = 1 << led.highPin;
 }
 
 
 void blink_leds(){
-    DDRB = ledInput;
-
     for (int i = 0; i < LED_COUNT; i++) {
         toggle_led(ledArray[i]);
         _delay_ms(500);
     }
 
-    DDRB = ledInput;
+    DDRB = 0;
+    PORTB = 0;
 }
 
 ISR(PCINT0_vect) {
@@ -30,8 +29,8 @@ ISR(PCINT0_vect) {
 int main(void){
 
     ADCSRA = 0;             // Disable ADC
-    GIMSK = (1 << 5);       // General Interrupt Mask Register - Enable Pin Change Interrupts (for button)
-    PCMSK = (1 << BUTTON);  // Pin Change Mask Register - Set PB0 as the PCINT pin (button pin)
+    GIMSK = 1 << 5;         // General Interrupt Mask Register - Enable Pin Change Interrupts (for button)
+    PCMSK = 1 << BUTTON;    // Pin Change Mask Register - Set PB0 as the PCINT pin (button pin)
     sei();                  // Enable interrupts
 
     blink_leds();           // She's alive
