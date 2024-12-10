@@ -440,177 +440,6 @@
 				)
 			)
 		)
-		(symbol "Device:LED_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LED_Small"
-				(at -4.445 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1192,6 +1021,177 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ornament_small_led:LED_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2501,16 +2501,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 172.72 95.25 270)
+		(lib_id "ornament_small_led:LED_Small")
+		(at 190.5 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "09af3b23-7c74-4582-974a-c38408b64440")
-		(property "Reference" "D9"
-			(at 174.244 96.52 90)
+		(uuid "2ba9fc12-b6f9-4450-a082-20e3b2d84aea")
+		(property "Reference" "D11"
+			(at 192.532 85.344 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -2519,7 +2519,7 @@
 			)
 		)
 		(property "Value" "LED_R"
-			(at 174.244 93.98 90)
+			(at 192.532 83.312 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -2528,7 +2528,7 @@
 			)
 		)
 		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
-			(at 172.72 95.25 90)
+			(at 190.5 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +2537,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 95.25 90)
+			(at 190.5 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2546,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 172.72 95.25 0)
+			(at 190.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,31 +2555,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "82dabe79-78e3-4b9b-9f0c-7d36125dc393")
+			(uuid "07e183e2-d747-494d-b7b3-8ed6caf027ab")
 		)
 		(pin "2"
-			(uuid "8cd47a4c-e33b-481a-9c4d-e66fae727021")
+			(uuid "02ebb88e-203b-4521-af9e-ebfb9669d884")
 		)
 		(instances
 			(project "tree_ornament"
 				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
-					(reference "D9")
+					(reference "D11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "ornament_small_led:LED_Small")
 		(at 151.13 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0a7c67b2-1abc-4bca-b568-6a1f04edde82")
+		(uuid "352a8ced-3b45-4ca6-b2d8-b0136e4b7f0b")
 		(property "Reference" "D4"
-			(at 152.908 84.836 90)
+			(at 153.162 85.344 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -2588,7 +2588,7 @@
 			)
 		)
 		(property "Value" "LED_R"
-			(at 152.908 82.296 90)
+			(at 153.162 83.312 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -2624,15 +2624,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "295f8ee0-0876-4e67-9dfa-81a6ceba9cab")
+			(uuid "a2cd3e11-1ae6-4435-beb4-48aa9bb75531")
 		)
 		(pin "2"
-			(uuid "f43825f4-011a-4440-9a98-0752ecf4dced")
+			(uuid "1605796e-dcb6-4525-bd0b-20af9862e7ee")
 		)
 		(instances
 			(project "tree_ornament"
 				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ornament_small_led:LED_Small")
+		(at 160.02 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "364f4095-8b6a-421d-91be-0a3de36ac890")
+		(property "Reference" "D5"
+			(at 162.306 92.964 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_G"
+			(at 162.306 90.932 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 160.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f788687-c52b-480f-b10c-6a0d369ac823")
+		)
+		(pin "2"
+			(uuid "ef00d419-8586-4116-a56b-369a47c9e981")
+		)
+		(instances
+			(project "tree_ornament"
+				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2793,75 +2863,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 172.72 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4587233b-8c62-4119-8d82-d092c827b51a")
-		(property "Reference" "D8"
-			(at 174.244 73.66 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED_R"
-			(at 174.244 71.12 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
-			(at 172.72 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 172.72 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63345a9b-5ee5-469a-a20c-c8cb3b71e2ba")
-		)
-		(pin "2"
-			(uuid "a85a8dd2-c647-453f-99c7-5c3d7641368c")
-		)
-		(instances
-			(project "tree_ornament"
-				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 123.19 130.81 0)
 		(unit 1)
@@ -2927,34 +2928,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 181.61 95.25 90)
+		(lib_id "ornament_small_led:LED_Small")
+		(at 199.39 83.82 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4b872c48-08d6-4823-a9f9-a1a8812d60f7")
-		(property "Reference" "D10"
-			(at 183.134 96.52 90)
+		(uuid "4bb9a626-ff6c-40b8-ac3c-1804a13cc876")
+		(property "Reference" "D12"
+			(at 201.676 85.344 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_G"
-			(at 183.134 93.98 90)
+			(at 201.676 83.312 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
-			(at 181.61 95.25 90)
+			(at 199.39 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2963,7 +2965,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 95.25 90)
+			(at 199.39 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +2974,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 181.61 95.25 0)
+			(at 199.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,31 +2983,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7649aee-6395-4e29-8bc9-85f07b9ec216")
+			(uuid "0308c06a-9f30-4ed0-9c21-98fee45a8f9a")
 		)
 		(pin "2"
-			(uuid "285d7bb2-89e6-4464-b7ef-7f9799ade51f")
+			(uuid "a42b47c7-c445-4a42-bee5-92367f810b44")
 		)
 		(instances
 			(project "tree_ornament"
 				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
-					(reference "D10")
+					(reference "D12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 151.13 91.44 270)
+		(lib_id "ornament_small_led:LED_Small")
+		(at 160.02 76.2 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4fa20e1b-6dd3-42c2-b82d-9dc17fc495fb")
-		(property "Reference" "D6"
-			(at 152.908 92.456 90)
+		(uuid "5224d49d-9f87-4dba-9d61-da5465d5a436")
+		(property "Reference" "D1"
+			(at 162.306 77.724 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -3013,8 +3016,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED_R"
-			(at 152.908 89.916 90)
+		(property "Value" "LED_G"
+			(at 162.306 75.692 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -3023,7 +3026,7 @@
 			)
 		)
 		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
-			(at 151.13 91.44 90)
+			(at 160.02 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3032,7 +3035,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 91.44 90)
+			(at 160.02 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,7 +3044,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 151.13 91.44 0)
+			(at 160.02 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,15 +3053,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ad51224-ebcc-4a23-9a5d-f4c93e4ddcc7")
+			(uuid "b8edb7c5-a60d-4f6a-88eb-b1f090e73a44")
 		)
 		(pin "2"
-			(uuid "50b05eb2-f44b-49cd-b49f-d60ba06bdbbe")
+			(uuid "4daee41a-e6ff-46d7-8622-5d672524ae5e")
 		)
 		(instances
 			(project "tree_ornament"
 				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
-					(reference "D6")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3132,6 +3135,145 @@
 		)
 	)
 	(symbol
+		(lib_id "ornament_small_led:LED_Small")
+		(at 160.02 83.82 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53094984-7d4b-4e66-b438-61cc5a00dba4")
+		(property "Reference" "D3"
+			(at 162.306 85.344 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_G"
+			(at 162.306 83.312 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
+			(at 160.02 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fbdd8b5-f39d-42f6-8052-e924467398ac")
+		)
+		(pin "2"
+			(uuid "e67be7c7-1afc-49d0-be0a-6509ff64b80e")
+		)
+		(instances
+			(project "tree_ornament"
+				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ornament_small_led:LED_Small")
+		(at 172.72 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63dd7166-bae5-4994-b067-e2556d825879")
+		(property "Reference" "D8"
+			(at 174.752 73.914 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_R"
+			(at 174.752 71.882 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
+			(at 172.72 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 172.72 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2af3b6bc-e62b-4071-9ac9-ac53043bdbdf")
+		)
+		(pin "2"
+			(uuid "91de2a74-7a84-41f2-b679-472242bb10fe")
+		)
+		(instances
+			(project "tree_ornament"
+				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 90.17 76.2 0)
 		(unit 1)
@@ -3193,6 +3335,76 @@
 			(project "tree_ornament"
 				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ornament_small_led:LED_Small")
+		(at 181.61 72.39 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d233b24-210b-4b93-9fd5-2302e5e5c205")
+		(property "Reference" "D7"
+			(at 183.896 73.914 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_G"
+			(at 183.896 71.882 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
+			(at 181.61 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 181.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "019fb06d-ad2f-44e6-a010-4032c39d2a9f")
+		)
+		(pin "2"
+			(uuid "fa702fee-f7f4-4d1a-b2d8-c02718400b67")
+		)
+		(instances
+			(project "tree_ornament"
+				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -3385,16 +3597,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 190.5 83.82 270)
+		(lib_id "ornament_small_led:LED_Small")
+		(at 151.13 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7a77b5a9-b095-4748-9e14-d16fa514db93")
-		(property "Reference" "D11"
-			(at 192.024 85.09 90)
+		(uuid "74c6bbac-2d75-4e9f-8bc0-83b21ed4f982")
+		(property "Reference" "D6"
+			(at 153.162 92.964 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -3403,7 +3615,7 @@
 			)
 		)
 		(property "Value" "LED_R"
-			(at 192.024 82.55 90)
+			(at 153.162 90.932 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -3412,7 +3624,7 @@
 			)
 		)
 		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
-			(at 190.5 83.82 90)
+			(at 151.13 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3421,7 +3633,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 83.82 90)
+			(at 151.13 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,7 +3642,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 190.5 83.82 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,49 +3651,50 @@
 			)
 		)
 		(pin "1"
-			(uuid "59ca3f4c-6c60-4a28-a5f7-53fa3cd26484")
+			(uuid "b6d64c86-b28c-40de-98fe-392d7ca99bbd")
 		)
 		(pin "2"
-			(uuid "5dc0424f-ecff-4199-aca4-58bb15e2286e")
+			(uuid "552d877b-3303-4cdc-98a4-e860ea205806")
 		)
 		(instances
-			(project "tree_ornament"
+			(project ""
 				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
-					(reference "D11")
+					(reference "D6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 199.39 83.82 90)
+		(lib_id "ornament_small_led:LED_Small")
+		(at 181.61 95.25 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "915beeba-9e4c-48ec-b0a3-2bf1f65bd13e")
-		(property "Reference" "D12"
-			(at 200.914 85.09 90)
+		(uuid "802c09de-a2bd-436f-92b2-29ebd7fc9187")
+		(property "Reference" "D10"
+			(at 183.896 96.774 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "LED_G"
-			(at 200.914 82.55 90)
+			(at 183.896 94.742 90)
 			(effects
 				(font
 					(size 0.889 0.889)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
-			(at 199.39 83.82 90)
+			(at 181.61 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3703,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 83.82 90)
+			(at 181.61 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,7 +3712,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 199.39 83.82 0)
+			(at 181.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,15 +3721,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "33556377-72a7-44ce-b119-18b3922b9a71")
+			(uuid "33b5a696-c5d5-436f-a148-fddddde438ff")
 		)
 		(pin "2"
-			(uuid "ff9cdca6-afb6-4685-8467-1e52acd2f9ff")
+			(uuid "be4f7e74-5769-43db-9110-d8c396ec4d83")
 		)
 		(instances
 			(project "tree_ornament"
 				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
-					(reference "D12")
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ornament_small_led:LED_Small")
+		(at 151.13 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ebab41b-5c79-488e-ac97-b13c2f6e402c")
+		(property "Reference" "D2"
+			(at 153.162 77.724 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_R"
+			(at 153.162 75.692 90)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
+			(at 151.13 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 151.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "624a12d5-bdcb-4e89-928c-ce0adbdfc81b")
+		)
+		(pin "2"
+			(uuid "83ced592-c7f1-420d-bb37-9bc7956c2da2")
+		)
+		(instances
+			(project "tree_ornament"
+				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3669,75 +3951,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 181.61 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c674f730-bff6-4d45-80b3-12dd0bcfd1e6")
-		(property "Reference" "D7"
-			(at 183.134 73.66 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_G"
-			(at 183.134 71.12 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
-			(at 181.61 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 181.61 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee15633f-aea5-4a8e-82ac-09365baba40f")
-		)
-		(pin "2"
-			(uuid "a4c471b2-6234-4125-85f9-5ed07756d9df")
-		)
-		(instances
-			(project "tree_ornament"
-				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
 		(at 110.49 128.27 0)
 		(unit 1)
@@ -3818,223 +4031,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 160.02 76.2 90)
+		(lib_id "ornament_small_led:LED_Small")
+		(at 172.72 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d8c8674c-2ff8-4e28-b86d-d328ee893054")
-		(property "Reference" "D1"
-			(at 161.544 77.47 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_G"
-			(at 161.544 74.93 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
-			(at 160.02 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 160.02 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd48ed8b-645a-4d57-8088-b083ce75983e")
-		)
-		(pin "2"
-			(uuid "a4d3ef23-3db0-41dd-8e53-52c03da43c98")
-		)
-		(instances
-			(project ""
-				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 160.02 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "db5fdb36-e604-4414-9976-ff38934f6b77")
-		(property "Reference" "D3"
-			(at 161.544 85.09 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_G"
-			(at 161.544 82.55 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
-			(at 160.02 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 160.02 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1513de5d-d70d-4eac-9424-a19cc9a9e25f")
-		)
-		(pin "2"
-			(uuid "6b69d299-f0d5-4327-8067-ad0993ead4fb")
-		)
-		(instances
-			(project "tree_ornament"
-				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 160.02 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc2b6245-6f4a-42e0-93dd-fbc058811d6f")
-		(property "Reference" "D5"
-			(at 161.544 92.71 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_G"
-			(at 161.544 90.17 90)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
-			(at 160.02 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 160.02 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a450c81-56d7-45e4-81ed-b0820b3f28cb")
-		)
-		(pin "2"
-			(uuid "e284ed9a-d55d-4d76-b8ca-809ff0a32ad0")
-		)
-		(instances
-			(project "tree_ornament"
-				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 151.13 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eccc2e48-2888-418b-9383-75fbeeb49dcb")
-		(property "Reference" "D2"
-			(at 152.908 77.216 90)
+		(uuid "ef9a0449-8583-421a-b938-fa68bd9ab093")
+		(property "Reference" "D9"
+			(at 174.752 96.774 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -4043,7 +4049,7 @@
 			)
 		)
 		(property "Value" "LED_R"
-			(at 152.908 74.676 90)
+			(at 174.752 94.742 90)
 			(effects
 				(font
 					(size 0.889 0.889)
@@ -4052,7 +4058,7 @@
 			)
 		)
 		(property "Footprint" "tree_ornament:WL-TMRC_3MM_LED"
-			(at 151.13 76.2 90)
+			(at 172.72 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,7 +4067,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 76.2 90)
+			(at 172.72 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4070,7 +4076,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 151.13 76.2 0)
+			(at 172.72 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,15 +4085,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac38e3dd-1980-4da8-9231-ad4d5db9f426")
+			(uuid "968ccab4-1a93-4b3b-8422-e4b62dad8c19")
 		)
 		(pin "2"
-			(uuid "2abccd9a-7f57-4f2b-b1a4-063954197591")
+			(uuid "94d00e32-5cae-4504-b3da-fbdc7779d375")
 		)
 		(instances
 			(project "tree_ornament"
 				(path "/176cf2be-8494-4b6a-ba88-effb6e3f61f5"
-					(reference "D2")
+					(reference "D9")
 					(unit 1)
 				)
 			)
